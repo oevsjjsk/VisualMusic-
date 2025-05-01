@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VisualMusic</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>VisualMusic</h1>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Servicios</a></li>
+        <li><a href="#">Portafolio</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <div class="hero-text">
+        <p>Te ayudamos a impulsar tu negocio</p>
+        <h2>Vende Más<br>con contenido profesional</h2>
+        <a href="#" class="btn">Contáctanos</a>
+      </div>
+      <img src="https://via.placeholder.com/300x400" alt="Mujer feliz con celular">
+    </div>
+  </header>
+
+  <section class="services">
+    <h2>Servicios</h2>
+    <div class="service-items">
+      <div class="service">
+        <img src="https://img.icons8.com/ios-filled/50/000000/edit--v1.png" alt="">
+        <h3>Diseño de Logos</h3>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+      <div class="service">
+        <img src="https://img.icons8.com/ios-filled/50/000000/play-button-circled--v1.png" alt="">
+        <h3>Videos Promocionales</h3>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+      <div class="service">
+        <img src="https://img.icons8.com/ios-filled/50/000000/megaphone.png" alt="">
+        <h3>Campañas en Redes Sociales</h3>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+      <div class="service">
+        <img src="https://img.icons8.com/ios-filled/50/000000/musical-notes.png" alt="">
+        <h3>Canciones Personalizadas</h3>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="socials">
+      <a href="#"><img src="https://img.icons8.com/ios-filled/30/000000/facebook-new.png"/></a>
+      <a href="#"><img src="https://img.icons8.com/ios-filled/30/000000/instagram-new.png"/></a>
+      <a href="#"><img src="https://img.icons8.com/ios-filled/30/000000/youtube-play.png"/></a>
+    </div>
+    <p>&copy; 2024 VisualMusic</p>
+  </footer>
+</body>
+</html>
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.6;
+  color: #111;
+  background: #fff;
+}
+
+header {
+  background: #f9f9f9;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h1 {
+  color: #111;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+.hero-text h2 {
+  font-size: 2.5rem;
+  margin: 20px 0;
+}
+
+.btn {
+  background: #111;
+  color: #fff;
+  padding: 10px 20px;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.services {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.service-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.service {
+  width: 200px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #f1f1f1;
+  margin-top: 40px;
+}
+
+.socials a {
+  margin: 0 10px;
+}
